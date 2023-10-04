@@ -1,0 +1,79 @@
+
+#testinomal{
+    margin-left: 50px;
+    margin-right:50px;
+
+}
+
+.headblk{
+    margin-top: 0% ;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 50px;
+    text-transform: capitalize;
+    font-family:  'Playball', cursive;
+    color: #666;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
+}
+#testinomal .row{
+
+    margin-top: 30px;
+}
+
+.profile{
+    padding: 80px;
+    position: relative;
+    background-color: #efefef;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+}
+.profile img{
+    top: -60px;
+    position: absolute;
+    left:calc(50% - 60px);
+    border: 10px solid white;
+}
+.user{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+.profile h3{
+    font-size: 20px;
+    margin-top: 15px;
+    color: #ff9800;
+}
+blockquote{
+    font-size: 16px;
+    line-height: 30px;
+}
+blockquote::before{
+    content: '\201C';
+    font-family: sans-serif;
+    font-size: 50px;
+    position: relative;
+    color: #ff9800;
+    line-height: 20px;
+    bottom: -15px;
+    right: 5px;
+}
+blockquote::after{
+    content: '\201D';
+    font-family: sans-serif;
+    font-size: 50px;
+    position: relative;
+    color: #ff9800;
+    line-height: 10px;
+    bottom: -15px;
+    left: 5px;
+}
+.profile:hover{
+    box-shadow: 0 0 15px 5px rgba(0,0,0,0.2);
+    cursor: pointer;
+    transition: 0.5s;
+}

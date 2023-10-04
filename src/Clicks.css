@@ -1,0 +1,27 @@
+#clciks{
+    margin-top: 50px;
+}
+.container{
+    display: flex;
+}
+.headblk{
+    margin-top: 50px;
+}
+.card{
+    justify-content: center;
+    align-items:center ;
+    margin: 25px;
+}
+.card-body{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.card-img-top{
+
+    width: 300px;
+    height: 250px;    
+    padding: 20px;
+    justify-content: center;
+    align-items:center ;
+}
